@@ -1,0 +1,6 @@
+{"rules":{
+"chapters":{".read":true,".write":false},
+"lessons":{".read":true,"$lid":{".write":"auth!=null && (!data.exists() || data.child('createdBy').val()===auth.uid) && (!newData.exists() || newData.child('createdBy').val()===auth.uid)"}},
+"assets":{".read":true,"$aid":{".write":"auth!=null && (!data.exists() || data.child('createdBy').val()===auth.uid) && (!newData.exists() || newData.child('createdBy').val()===auth.uid)"}},
+"users":{"$uid":{".read":"auth!=null && auth.uid===$uid",".write":"auth!=null && auth.uid===$uid"}}
+}}

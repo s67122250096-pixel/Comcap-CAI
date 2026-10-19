@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600;700&display=swap');
+:root{--navy:#0a2a5e;--blue:#0b66d6;--orange:#f08a00;--soft:#f1f6fd;--line:#d3dfef;--ink:#16253b;--bad:#b3261e;--good:#17663a}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Noto Sans Thai',system-ui,sans-serif;color:var(--ink);background:var(--soft);line-height:1.6}
+main{max-width:980px;margin:0 auto;padding:16px 16px 90px}
+a{color:var(--blue)}h1,h2,h3{line-height:1.3}
+.top{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:8px 16px;background:#fff;border-bottom:3px solid var(--orange)}
+.brand{display:flex;align-items:center;gap:8px;font-weight:700;color:var(--navy);text-decoration:none;font-size:1.2rem}.brand img{height:38px}
+.nav{display:flex;gap:4px;flex:1}.nav a{padding:6px 12px;border-radius:6px;text-decoration:none;color:var(--ink)}
+.nav a.active{background:var(--soft);color:var(--blue);font-weight:600}
+.acct{display:flex;gap:10px;align-items:center}
+.card{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:12px 0;color:inherit}
+.ccard{text-decoration:none;border-top:5px solid var(--blue)}.ccard:hover{border-color:var(--orange)}.ccard h3{margin:4px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}.grid .card{margin:0}
+.hero{display:flex;align-items:center;gap:16px;background:var(--navy);color:#fff;border-radius:12px;padding:24px;margin:16px 0}
+.hero img{width:180px;max-width:35%;background:#fff;border-radius:10px;padding:6px}.hero p{max-width:50ch}
+.banner{background:var(--blue);color:#fff;border-radius:10px;padding:20px;margin:12px 0}.banner h1,.banner p{margin:0}
+.list{display:grid;gap:12px}
+.lcard{display:grid;grid-template-columns:140px 1fr auto;gap:14px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px}
+.lcard img,.ph{width:140px;height:90px;object-fit:cover;border-radius:6px;background:var(--soft)}.ph{display:grid;place-items:center;color:#7a8aa0}
+.lcard h3{margin:0}.lcard p{margin:2px 0}
+.lesson{display:grid;grid-template-columns:220px 1fr;gap:14px;align-items:start}
+.lesson aside a{display:block;padding:6px 8px;border-radius:6px;text-decoration:none;color:var(--ink)}.lesson aside a.cur{background:var(--soft);color:var(--blue);font-weight:600}
+.body{white-space:pre-wrap}.pic{max-width:100%;height:auto;display:block;margin:12px 0;border-radius:8px;border:1px solid var(--line)}
+.searchbox{display:flex;gap:8px}.searchbox input{margin:0}
+input,textarea,select{width:100%;padding:9px 11px;margin:4px 0 10px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}
+label{display:block;font-weight:600}.chk{font-weight:400}.chk input{width:auto;margin-right:6px}
+button,.btn{display:inline-block;background:var(--blue);color:#fff;border:0;border-radius:8px;padding:8px 16px;font:inherit;cursor:pointer;text-decoration:none}
+.hero .btn{background:var(--orange)}button:disabled{opacity:.6}button.ghost{background:none;color:var(--blue)}
+:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+.row{display:flex;gap:8px;flex-wrap:wrap}.between{justify-content:space-between;align-items:center}
+.narrow{max-width:400px;margin:5vh auto}.narrow button{width:100%}
+.error{color:var(--bad)}.notice{color:var(--good)}.muted{color:#5b6b7c}.center{text-align:center;margin-top:20vh}
+@media(max-width:640px){
+ .lcard{grid-template-columns:90px 1fr}.lcard img,.ph{width:90px;height:70px}.lcard .btn{grid-column:1/-1;text-align:center}
+ .lesson{grid-template-columns:1fr}.hero{flex-direction:column;text-align:center}
+ .nav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:2px solid var(--orange);justify-content:space-around;padding:6px;z-index:5}
+ .nav a{font-size:.85rem;padding:6px 8px}}
+.stars svg{fill:#cfd9e8;vertical-align:middle}.stars svg.on{fill:var(--orange)}
+.meta{display:flex;gap:8px;align-items:center;font-size:.85rem;color:#4a5b70;flex-wrap:wrap}
+.card section h2{font-size:1.15rem;margin:18px 0 4px;color:var(--navy)}figure{margin:8px 0}figcaption{font-size:.85rem;color:#5b6b7c}

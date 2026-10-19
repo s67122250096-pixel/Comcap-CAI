@@ -1,0 +1,881 @@
+{
+ "chapters": {
+  "ch01": {
+   "chapter_no": 1,
+   "title": "พื้นฐานคอมพิวเตอร์",
+   "description": "ความรู้เบื้องต้น ประเภท และชิ้นส่วนสำคัญของคอมพิวเตอร์",
+   "status": "published"
+  },
+  "ch02": {
+   "chapter_no": 2,
+   "title": "ฮาร์ดแวร์คอมพิวเตอร์",
+   "description": "อุปกรณ์ภายในและอุปกรณ์ภายนอกของคอมพิวเตอร์",
+   "status": "published"
+  },
+  "ch03": {
+   "chapter_no": 3,
+   "title": "ซอฟต์แวร์คอมพิวเตอร์",
+   "description": "ประเภทและหน้าที่ของซอฟต์แวร์",
+   "status": "published"
+  },
+  "ch04": {
+   "chapter_no": 4,
+   "title": "ความปลอดภัยและจริยธรรมคอมพิวเตอร์",
+   "description": "การใช้คอมพิวเตอร์อย่างปลอดภัยและถูกต้องตามกฎหมาย",
+   "status": "published"
+  },
+  "ch05": {
+   "chapter_no": 5,
+   "title": "เครือข่ายคอมพิวเตอร์",
+   "description": "ความรู้พื้นฐานเกี่ยวกับเครือข่ายและอินเทอร์เน็ต",
+   "status": "published"
+  },
+  "ch06": {
+   "chapter_no": 6,
+   "title": "บทเรียนจากสมาชิก",
+   "description": "บทเรียนที่สมาชิกซึ่งล็อกอินแล้วเขียนและแชร์ให้ผู้อื่น",
+   "status": "published"
+  }
+ },
+ "lessons": {
+  "les001": {
+   "chapter_id": "ch01",
+   "title": "ความรู้เบื้องต้นเกี่ยวกับคอมพิวเตอร์",
+   "description": "ความหมาย หลักการทำงาน 4 ขั้นตอน และประโยชน์ของคอมพิวเตอร์",
+   "lesson_order": 1,
+   "difficulty": 1,
+   "duration_min": 8,
+   "status": "published",
+   "keyword": "computer, fundamentals, input, process, output, คอมพิวเตอร์",
+   "sections": [
+    {
+     "heading": "คอมพิวเตอร์คืออะไร",
+     "text": "คอมพิวเตอร์คืออุปกรณ์อิเล็กทรอนิกส์ที่ทำงานตามชุดคำสั่ง สามารถรับข้อมูล ประมวลผล จัดเก็บ และแสดงผลลัพธ์ได้อย่างรวดเร็วและแม่นยำ ปัจจุบันเราใช้คอมพิวเตอร์ในการเรียน การทำงาน การสื่อสาร และความบันเทิง",
+     "asset_id": "ast005"
+    },
+    {
+     "heading": "หลักการทำงาน 4 ขั้นตอน",
+     "text": "คอมพิวเตอร์ทำงานเป็นวงจรต่อเนื่อง ได้แก่ รับข้อมูล ประมวลผล จัดเก็บ และแสดงผล ดังภาพรวมและรายละเอียดด้านล่าง",
+     "asset_id": "ast006"
+    },
+    {
+     "heading": "ขั้นที่ 1 รับข้อมูล (Input)",
+     "text": "ข้อมูลถูกป้อนเข้าสู่เครื่องผ่านอุปกรณ์นำเข้า เช่น แป้นพิมพ์ เมาส์ สแกนเนอร์ หรือไมโครโฟน",
+     "asset_id": "ast001"
+    },
+    {
+     "heading": "ขั้นที่ 2 ประมวลผล (Process)",
+     "text": "หน่วยประมวลผลกลางหรือซีพียู (CPU) นำข้อมูลมาคำนวณและเปรียบเทียบตามคำสั่ง เพื่อให้ได้ผลลัพธ์ตามต้องการ",
+     "asset_id": "ast002"
+    },
+    {
+     "heading": "ขั้นที่ 3 จัดเก็บข้อมูล (Storage)",
+     "text": "ข้อมูลและผลลัพธ์ถูกบันทึกไว้ในหน่วยความจำสำรอง เช่น ฮาร์ดดิสก์หรือ SSD เพื่อเรียกกลับมาใช้ภายหลังได้",
+     "asset_id": "ast003"
+    },
+    {
+     "heading": "ขั้นที่ 4 แสดงผล (Output)",
+     "text": "ผลลัพธ์ถูกส่งออกทางอุปกรณ์แสดงผล เช่น จอภาพ เครื่องพิมพ์ หรือลำโพง",
+     "asset_id": "ast004"
+    },
+    {
+     "heading": "สรุป",
+     "text": "คอมพิวเตอร์ทำงานเป็นลำดับ รับข้อมูล ประมวลผล จัดเก็บ และแสดงผล เมื่อเข้าใจวงจรนี้แล้วจะเรียนเรื่องอุปกรณ์และซอฟต์แวร์ในบทถัดไปได้ง่ายขึ้น"
+    }
+   ],
+   "authorName": "ทีม ComCap"
+  },
+  "les006": {
+   "chapter_id": "ch01",
+   "title": "ประเภทของคอมพิวเตอร์",
+   "description": "จำแนกคอมพิวเตอร์ตามขนาดและความสามารถ",
+   "lesson_order": 2,
+   "difficulty": 1,
+   "duration_min": 6,
+   "status": "published",
+   "keyword": "type, microcomputer, mainframe, supercomputer, ประเภทคอมพิวเตอร์",
+   "sections": [
+    {
+     "heading": "ไมโครคอมพิวเตอร์",
+     "text": "คือคอมพิวเตอร์ขนาดเล็กสำหรับใช้งานส่วนบุคคล เช่น เครื่องตั้งโต๊ะ โน้ตบุ๊ก และแท็บเล็ต เป็นประเภทที่พบบ่อยที่สุดในบ้านและสถานศึกษา",
+     "asset_id": "ast013"
+    },
+    {
+     "heading": "เมนเฟรมคอมพิวเตอร์",
+     "text": "เป็นเครื่องขนาดใหญ่ที่ประมวลผลข้อมูลจำนวนมากพร้อมกัน ผู้ใช้หลายคนใช้งานผ่านเครื่องปลายทางได้ พบในธนาคาร สายการบิน และหน่วยงานขนาดใหญ่",
+     "asset_id": "ast014"
+    },
+    {
+     "heading": "ซูเปอร์คอมพิวเตอร์",
+     "text": "เป็นคอมพิวเตอร์ที่มีความเร็วในการคำนวณสูงมาก ใช้กับงานที่ซับซ้อน เช่น การพยากรณ์อากาศ งานวิจัยทางวิทยาศาสตร์ และการจำลองทางวิศวกรรม",
+     "asset_id": "ast015"
+    },
+    {
+     "heading": "เลือกใช้อย่างไร",
+     "text": "การเลือกใช้คอมพิวเตอร์ควรดูจากลักษณะงาน งบประมาณ และจำนวนผู้ใช้ ผู้ใช้ทั่วไปเหมาะกับไมโครคอมพิวเตอร์ ส่วนองค์กรขนาดใหญ่อาจต้องใช้เครื่องที่มีสมรรถนะสูงกว่า"
+    }
+   ],
+   "authorName": "ทีม ComCap"
+  },
+  "les007": {
+   "chapter_id": "ch01",
+   "title": "ชิ้นส่วนและการ์ดเสริมในเครื่องคอมพิวเตอร์",
+   "description": "ชิ้นส่วนภายในเครื่องและการ์ดที่ช่วยเพิ่มความสามารถ",
+   "lesson_order": 3,
+   "difficulty": 2,
+   "duration_min": 10,
+   "status": "published",
+   "keyword": "motherboard, cpu, ram, card, เมนบอร์ด, การ์ดจอ, การ์ดเสียง",
+   "sections": [
+    {
+     "heading": "เมนบอร์ด (Motherboard)",
+     "text": "เมนบอร์ดคือแผงวงจรหลักที่เชื่อมต่อทุกชิ้นส่วนเข้าด้วยกัน มีช่องเสียบสำหรับซีพียู หน่วยความจำ และการ์ดต่างๆ",
+     "asset_id": "ast017"
+    },
+    {
+     "heading": "ซีพียู (CPU)",
+     "text": "ซีพียูเป็นหน่วยประมวลผลกลาง ทำหน้าที่คำนวณและควบคุมการทำงานของเครื่อง เปรียบได้กับสมองของคอมพิวเตอร์",
+     "asset_id": "ast018"
+    },
+    {
+     "heading": "พัดลมและแผ่นระบายความร้อน",
+     "text": "ซีพียูทำงานแล้วเกิดความร้อน จึงต้องมีแผ่นระบายความร้อนและพัดลมช่วยลดอุณหภูมิ เพื่อให้เครื่องทำงานได้เสถียร",
+     "asset_id": "ast011"
+    },
+    {
+     "heading": "หน่วยความจำหลัก (RAM)",
+     "text": "RAM เก็บข้อมูลและโปรแกรมที่กำลังใช้งานไว้ชั่วคราว ข้อมูลใน RAM จะหายเมื่อปิดเครื่อง",
+     "asset_id": "ast020"
+    },
+    {
+     "heading": "การ์ดแสดงผล",
+     "text": "การ์ดแสดงผลช่วยประมวลผลภาพและส่งสัญญาณภาพไปยังจอภาพ",
+     "asset_id": "ast019"
+    },
+    {
+     "heading": "การ์ดเสียง",
+     "text": "การ์ดเสียงควบคุมการรับและส่งสัญญาณเสียง เชื่อมต่อกับลำโพง ไมโครโฟน และหูฟัง",
+     "asset_id": "ast009"
+    },
+    {
+     "heading": "การ์ดเครือข่าย",
+     "text": "การ์ดเครือข่ายใช้เชื่อมต่อเครื่องเข้ากับเครือข่าย เช่น ผ่านสาย LAN ที่ใช้หัวต่อ RJ-45",
+     "asset_id": "ast010"
+    },
+    {
+     "heading": "การ์ดเสริมอื่นๆ",
+     "text": "นอกจากนี้ยังมีการ์ดเสริมแบบต่างๆ ที่เสียบเพิ่มในช่องบนเมนบอร์ดเพื่อเพิ่มความสามารถของเครื่อง",
+     "asset_id": "ast012"
+    },
+    {
+     "heading": "ฟล็อปปีดิสก์ไดรฟ์",
+     "text": "เป็นอุปกรณ์จัดเก็บข้อมูลรุ่นเก่า ปัจจุบันแทบไม่ใช้แล้ว เพราะถูกแทนที่ด้วยแฟลชไดรฟ์ SSD และบริการจัดเก็บข้อมูลออนไลน์",
+     "asset_id": "ast008"
+    }
+   ],
+   "authorName": "ทีม ComCap"
+  },
+  "les002": {
+   "chapter_id": "ch02",
+   "title": "อุปกรณ์นำเข้าและอุปกรณ์แสดงผล",
+   "description": "แป้นพิมพ์ เมาส์ จอภาพ ลำโพง และหูฟัง",
+   "lesson_order": 1,
+   "difficulty": 1,
+   "duration_min": 8,
+   "status": "published",
+   "keyword": "keyboard, mouse, monitor, speaker, headset, อุปกรณ์รับเข้า, อุปกรณ์แสดงผล",
+   "sections": [
+    {
+     "heading": "อุปกรณ์นำเข้า (Input Device)",
+     "text": "คืออุปกรณ์ที่ใช้ส่งข้อมูลและคำสั่งเข้าสู่คอมพิวเตอร์"
+    },
+    {
+     "heading": "แป้นพิมพ์ (Keyboard)",
+     "text": "ใช้พิมพ์ตัวอักษร ตัวเลข และสั่งงานด้วยปุ่มลัด เป็นอุปกรณ์นำเข้าที่ใช้บ่อยที่สุด",
+     "asset_id": "ast027"
+    },
+    {
+     "heading": "เมาส์ (Mouse)",
+     "text": "ใช้ควบคุมตัวชี้บนหน้าจอเพื่อเลือก คลิก และลากวัตถุ",
+     "asset_id": "ast028"
+    },
+    {
+     "heading": "อุปกรณ์แสดงผล (Output Device)",
+     "text": "คืออุปกรณ์ที่แสดงผลลัพธ์จากการประมวลผลให้ผู้ใช้เห็นหรือได้ยิน"
+    },
+    {
+     "heading": "จอภาพ (Monitor)",
+     "text": "แสดงผลลัพธ์เป็นภาพและข้อความ ความละเอียดและขนาดจอมีผลต่อความคมชัดในการใช้งาน",
+     "asset_id": "ast021"
+    },
+    {
+     "heading": "ลำโพง (Speaker)",
+     "text": "ส่งเสียงออกมาให้ผู้ใช้ได้ยิน เช่น เสียงเพลง เสียงจากวิดีโอ และเสียงแจ้งเตือน",
+     "asset_id": "ast031"
+    },
+    {
+     "heading": "หูฟัง (Headset)",
+     "text": "ใช้ฟังเสียงได้เป็นส่วนตัว และบางรุ่นมีไมโครโฟนในตัว จึงเป็นทั้งอุปกรณ์แสดงผลและอุปกรณ์นำเข้า",
+     "asset_id": "ast026"
+    }
+   ],
+   "authorName": "ทีม ComCap"
+  },
+  "les008": {
+   "chapter_id": "ch02",
+   "title": "อุปกรณ์ภายในเครื่องคอมพิวเตอร์",
+   "description": "CPU การ์ดจอ RAM หน่วยเก็บข้อมูล และแหล่งจ่ายไฟ",
+   "lesson_order": 2,
+   "difficulty": 3,
+   "duration_min": 12,
+   "status": "published",
+   "keyword": "cpu, gpu, ram, hdd, ssd, psu, hardware, ฮาร์ดแวร์",
+   "sections": [
+    {
+     "heading": "แผงวงจรหลัก",
+     "text": "ชิ้นส่วนทั้งหมดภายในเครื่องเชื่อมต่อกันผ่านแผงวงจรหลักหรือเมนบอร์ด",
+     "asset_id": "ast022"
+    },
+    {
+     "heading": "ซีพียู (CPU)",
+     "text": "ประมวลผลคำสั่งและควบคุมการทำงานของเครื่อง ความเร็วมักวัดเป็นกิกะเฮิรตซ์ (GHz) และจำนวนแกนประมวลผล (Core)",
+     "asset_id": "ast023"
+    },
+    {
+     "heading": "การ์ดแสดงผล (GPU)",
+     "text": "ประมวลผลภาพและกราฟิก จำเป็นมากสำหรับเกม ตัดต่อวิดีโอ และงานสามมิติ",
+     "asset_id": "ast024"
+    },
+    {
+     "heading": "หน่วยความจำหลัก (RAM)",
+     "text": "เก็บข้อมูลที่กำลังใช้งานอยู่ มีความเร็วสูงแต่ข้อมูลหายเมื่อปิดเครื่อง ยิ่งมี RAM มาก ยิ่งเปิดหลายโปรแกรมพร้อมกันได้ลื่นขึ้น",
+     "asset_id": "ast030"
+    },
+    {
+     "heading": "ฮาร์ดดิสก์และ SSD",
+     "text": "ใช้เก็บข้อมูลถาวร ฮาร์ดดิสก์ (HDD) ราคาต่อความจุถูกกว่า ส่วน SSD ไม่มีชิ้นส่วนหมุน อ่านเขียนเร็วกว่าและทนแรงกระแทกได้ดีกว่า",
+     "asset_id": "ast025"
+    },
+    {
+     "heading": "แหล่งจ่ายไฟ (PSU)",
+     "text": "แปลงไฟฟ้ากระแสสลับจากปลั๊กเป็นไฟกระแสตรงที่เหมาะกับชิ้นส่วนต่างๆ ควรเลือกกำลังไฟให้เพียงพอกับอุปกรณ์ในเครื่อง",
+     "asset_id": "ast029"
+    },
+    {
+     "heading": "จำให้ขึ้นใจ",
+     "text": "RAM คือที่วางงานที่กำลังทำ ส่วน HDD หรือ SSD คือตู้เก็บงานถาวร"
+    }
+   ],
+   "authorName": "ทีม ComCap"
+  },
+  "les003": {
+   "chapter_id": "ch03",
+   "title": "ซอฟต์แวร์คอมพิวเตอร์",
+   "description": "ประเภทและหน้าที่ของซอฟต์แวร์",
+   "lesson_order": 1,
+   "difficulty": 2,
+   "duration_min": 10,
+   "status": "published",
+   "keyword": "software, operating system, windows, linux, ซอฟต์แวร์, ระบบปฏิบัติการ",
+   "sections": [
+    {
+     "heading": "ซอฟต์แวร์คืออะไร",
+     "text": "ซอฟต์แวร์คือชุดคำสั่งที่บอกให้ฮาร์ดแวร์ทำงาน แบ่งเป็นสองกลุ่มหลักคือซอฟต์แวร์ระบบและซอฟต์แวร์ประยุกต์"
+    },
+    {
+     "heading": "ซอฟต์แวร์ระบบและระบบปฏิบัติการ",
+     "text": "ซอฟต์แวร์ระบบควบคุมและจัดการการทำงานของเครื่อง ตัวอย่างสำคัญคือระบบปฏิบัติการ เช่น Windows, macOS และ Linux ทำหน้าที่จัดการหน่วยความจำ ไฟล์ และอุปกรณ์ต่างๆ",
+     "asset_id": "ast032"
+    },
+    {
+     "heading": "ซอฟต์แวร์ประยุกต์",
+     "text": "เป็นโปรแกรมที่ผู้ใช้เปิดใช้งานเพื่อทำงานเฉพาะอย่าง เช่น โปรแกรมพิมพ์เอกสาร เว็บเบราว์เซอร์ โปรแกรมตกแต่งภาพ และแอปพลิเคชันต่างๆ",
+     "asset_id": "ast033"
+    },
+    {
+     "heading": "ซอฟต์แวร์อรรถประโยชน์",
+     "text": "เป็นโปรแกรมช่วยดูแลเครื่อง เช่น โปรแกรมป้องกันไวรัส โปรแกรมบีบอัดไฟล์ และโปรแกรมสำรองข้อมูล"
+    },
+    {
+     "heading": "ประเภทตามลิขสิทธิ์",
+     "text": "ซอฟต์แวร์เชิงพาณิชย์ต้องซื้อสิทธิ์ใช้งาน ซอฟต์แวร์ฟรีใช้ได้โดยไม่เสียเงินแต่ไม่เปิดซอร์สโค้ดเสมอไป ส่วนซอฟต์แวร์โอเพนซอร์สเปิดซอร์สโค้ดให้ตรวจสอบและพัฒนาต่อได้ ควรอ่านเงื่อนไขการใช้งานก่อนติดตั้ง"
+    }
+   ],
+   "authorName": "ทีม ComCap"
+  },
+  "les004": {
+   "chapter_id": "ch04",
+   "title": "ความปลอดภัยและจริยธรรมในการใช้คอมพิวเตอร์",
+   "description": "ภัยคุกคามที่พบบ่อย การป้องกันตนเอง และการใช้งานอย่างถูกกฎหมาย",
+   "lesson_order": 1,
+   "difficulty": 2,
+   "duration_min": 10,
+   "status": "published",
+   "keyword": "security, virus, phishing, password, ethics, pdpa, ความปลอดภัย, จริยธรรม",
+   "sections": [
+    {
+     "heading": "ภัยคุกคามที่พบบ่อย",
+     "text": "ภัยที่พบบ่อยได้แก่ มัลแวร์และไวรัสที่แฝงมากับไฟล์หรือโปรแกรม ฟิชชิงที่หลอกให้กรอกข้อมูลผ่านลิงก์หรือเว็บปลอม และการขโมยรหัสผ่าน"
+    },
+    {
+     "heading": "ตั้งรหัสผ่านให้ปลอดภัย",
+     "text": "ควรใช้รหัสผ่านยาวอย่างน้อย 12 ตัวอักษร ผสมตัวอักษรและตัวเลข ไม่ใช้ข้อมูลที่เดาง่าย เช่น วันเกิด และไม่ใช้รหัสเดียวกันกับหลายบริการ หากมีให้เปิดการยืนยันตัวตนสองขั้นตอน"
+    },
+    {
+     "heading": "ดูแลเครื่องและข้อมูล",
+     "text": "อัปเดตระบบปฏิบัติการและโปรแกรมอย่างสม่ำเสมอ ติดตั้งโปรแกรมป้องกันไวรัส ไม่ดาวน์โหลดไฟล์จากแหล่งที่ไม่น่าเชื่อถือ และสำรองข้อมูลสำคัญไว้อย่างน้อยสองที่"
+    },
+    {
+     "heading": "จริยธรรมการใช้คอมพิวเตอร์",
+     "text": "ผู้ใช้ควรเคารพลิขสิทธิ์ ไม่คัดลอกผลงานผู้อื่นโดยไม่ได้รับอนุญาต ไม่เผยแพร่ข้อมูลเท็จ ไม่ล่วงละเมิดผู้อื่นทางออนไลน์ และไม่เข้าถึงระบบของผู้อื่นโดยไม่ได้รับอนุญาต"
+    },
+    {
+     "heading": "กฎหมายที่เกี่ยวข้องในประเทศไทย",
+     "text": "ตัวอย่างเช่น พ.ร.บ.ว่าด้วยการกระทำความผิดเกี่ยวกับคอมพิวเตอร์ พ.ศ. 2550 (และที่แก้ไขเพิ่มเติม) พ.ร.บ.คุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562 และพ.ร.บ.ลิขสิทธิ์ ควรตรวจสอบเนื้อหากฎหมายฉบับล่าสุดจากแหล่งทางการก่อนนำไปอ้างอิง"
+    }
+   ],
+   "authorName": "ทีม ComCap"
+  },
+  "les005": {
+   "chapter_id": "ch05",
+   "title": "ความรู้เบื้องต้นเกี่ยวกับเครือข่ายคอมพิวเตอร์",
+   "description": "ความหมาย ประโยชน์ และประเภทของเครือข่าย",
+   "lesson_order": 1,
+   "difficulty": 2,
+   "duration_min": 8,
+   "status": "published",
+   "keyword": "network, internet, lan, wan, เครือข่าย, อินเทอร์เน็ต",
+   "sections": [
+    {
+     "heading": "เครือข่ายคอมพิวเตอร์คืออะไร",
+     "text": "คือการเชื่อมต่อคอมพิวเตอร์และอุปกรณ์ตั้งแต่สองเครื่องขึ้นไปเข้าด้วยกัน เพื่อแลกเปลี่ยนข้อมูลและใช้ทรัพยากรร่วมกัน เช่น ไฟล์ เครื่องพิมพ์ และอินเทอร์เน็ต",
+     "asset_id": "ast034"
+    },
+    {
+     "heading": "ประเภทของเครือข่ายตามขนาด",
+     "text": "PAN ครอบคลุมอุปกรณ์ส่วนตัวในระยะใกล้ LAN เป็นเครือข่ายภายในอาคารหรือโรงเรียน MAN ครอบคลุมระดับเมือง และ WAN ครอบคลุมพื้นที่กว้าง เช่น ข้ามประเทศ โดยอินเทอร์เน็ตคือเครือข่าย WAN ขนาดใหญ่ที่เชื่อมต่อกันทั่วโลก",
+     "asset_id": "ast037"
+    },
+    {
+     "heading": "ประโยชน์ของเครือข่าย",
+     "text": "ช่วยให้แบ่งปันไฟล์และอุปกรณ์ได้ สื่อสารกันได้รวดเร็ว และทำงานร่วมกันได้แม้อยู่คนละสถานที่"
+    }
+   ],
+   "authorName": "ทีม ComCap"
+  },
+  "les009": {
+   "chapter_id": "ch05",
+   "title": "อุปกรณ์เครือข่ายพื้นฐาน",
+   "description": "เราเตอร์ สวิตช์ และการเชื่อมต่อ",
+   "lesson_order": 2,
+   "difficulty": 3,
+   "duration_min": 8,
+   "status": "published",
+   "keyword": "router, switch, wifi, lan, อุปกรณ์เครือข่าย, เราเตอร์",
+   "sections": [
+    {
+     "heading": "เราเตอร์ (Router)",
+     "text": "เราเตอร์เชื่อมเครือข่ายภายในเข้ากับอินเทอร์เน็ต และกำหนดเส้นทางส่งข้อมูล เราเตอร์ในบ้านส่วนใหญ่มี Wi-Fi ในตัว",
+     "asset_id": "ast035"
+    },
+    {
+     "heading": "สวิตช์ (Switch)",
+     "text": "สวิตช์เชื่อมอุปกรณ์หลายเครื่องในเครือข่ายเดียวกันผ่านสาย LAN และส่งข้อมูลไปยังเครื่องปลายทางที่ต้องการโดยตรง",
+     "asset_id": "ast036"
+    },
+    {
+     "heading": "การ์ดเครือข่ายและสายสัญญาณ",
+     "text": "เครื่องคอมพิวเตอร์ต้องมีการ์ดเครือข่ายหรือ Wi-Fi เพื่อเชื่อมต่อ โดยสาย LAN ทั่วไปใช้หัว RJ-45"
+    },
+    {
+     "heading": "ตัวอย่างเครือข่ายในบ้าน",
+     "text": "โมเด็มรับสัญญาณอินเทอร์เน็ตจากผู้ให้บริการ ส่งต่อไปยังเราเตอร์ แล้วเราเตอร์กระจายสัญญาณไปยังโทรศัพท์ โน้ตบุ๊ก และอุปกรณ์อื่นทั้งแบบสายและไร้สาย"
+    }
+   ],
+   "authorName": "ทีม ComCap"
+  }
+ },
+ "assets": {
+  "ast001": {
+   "chapter_id": "ch01",
+   "lesson_id": "les001",
+   "file_name": "ch01_1_04.png",
+   "asset_type": "image",
+   "format": "png",
+   "width": 580,
+   "height": 155,
+   "uri": "assets/chapters/ch01/ch01_1_04.png",
+   "alt_text": "ขั้นที่ 1 รับข้อมูล (Input)",
+   "caption": "ขั้นที่ 1 รับข้อมูล (Input)",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast002": {
+   "chapter_id": "ch01",
+   "lesson_id": "les001",
+   "file_name": "ch01_2_05.png",
+   "asset_type": "image",
+   "format": "png",
+   "width": 599,
+   "height": 165,
+   "uri": "assets/chapters/ch01/ch01_2_05.png",
+   "alt_text": "ขั้นที่ 2 ประมวลผล (Process)",
+   "caption": "ขั้นที่ 2 ประมวลผล (Process)",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast003": {
+   "chapter_id": "ch01",
+   "lesson_id": "les001",
+   "file_name": "ch01_3_03.png",
+   "asset_type": "image",
+   "format": "png",
+   "width": 602,
+   "height": 261,
+   "uri": "assets/chapters/ch01/ch01_3_03.png",
+   "alt_text": "ขั้นที่ 3 จัดเก็บข้อมูล (Storage)",
+   "caption": "ขั้นที่ 3 จัดเก็บข้อมูล (Storage)",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast004": {
+   "chapter_id": "ch01",
+   "lesson_id": "les001",
+   "file_name": "ch01_4_02.png",
+   "asset_type": "image",
+   "format": "png",
+   "width": 599,
+   "height": 200,
+   "uri": "assets/chapters/ch01/ch01_4_02.png",
+   "alt_text": "ขั้นที่ 4 แสดงผล (Output)",
+   "caption": "ขั้นที่ 4 แสดงผล (Output)",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast005": {
+   "chapter_id": "ch01",
+   "lesson_id": "les001",
+   "file_name": "ch01_computer_19.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 507,
+   "height": 394,
+   "uri": "assets/chapters/ch01/ch01_computer_19.jpg",
+   "alt_text": "การใช้คอมพิวเตอร์ในการทำงาน",
+   "caption": "การใช้คอมพิวเตอร์ในการทำงาน",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast006": {
+   "chapter_id": "ch01",
+   "lesson_id": "les001",
+   "file_name": "ch01_computerevolution_15.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 720,
+   "height": 356,
+   "uri": "assets/chapters/ch01/ch01_computerevolution_15.jpg",
+   "alt_text": "ภาพรวมการไหลของข้อมูลในระบบคอมพิวเตอร์",
+   "caption": "ภาพรวมการไหลของข้อมูลในระบบคอมพิวเตอร์",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast007": {
+   "chapter_id": "ch01",
+   "lesson_id": "les001",
+   "file_name": "ch01_logo_comcap_01.png",
+   "asset_type": "image",
+   "format": "png",
+   "width": 1536,
+   "height": 1024,
+   "uri": "assets/chapters/ch01/ch01_logo_comcap_01.png",
+   "alt_text": "โลโก้ ComCap",
+   "caption": "โลโก้ ComCap",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast008": {
+   "chapter_id": "ch01",
+   "lesson_id": "les007",
+   "file_name": "ch01_pic018_11_13.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 181,
+   "height": 109,
+   "uri": "assets/chapters/ch01/ch01_pic018_11_13.jpg",
+   "alt_text": "ฟล็อปปีดิสก์ไดรฟ์",
+   "caption": "ฟล็อปปีดิสก์ไดรฟ์",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast009": {
+   "chapter_id": "ch01",
+   "lesson_id": "les007",
+   "file_name": "ch01_pic018_13_06.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 276,
+   "height": 154,
+   "uri": "assets/chapters/ch01/ch01_pic018_13_06.jpg",
+   "alt_text": "การ์ดเสียง",
+   "caption": "การ์ดเสียง",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast010": {
+   "chapter_id": "ch01",
+   "lesson_id": "les007",
+   "file_name": "ch01_pic018_14_17.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 257,
+   "height": 178,
+   "uri": "assets/chapters/ch01/ch01_pic018_14_17.jpg",
+   "alt_text": "การ์ดเครือข่ายพร้อมหัวต่อ RJ-45",
+   "caption": "การ์ดเครือข่ายพร้อมหัวต่อ RJ-45",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast011": {
+   "chapter_id": "ch01",
+   "lesson_id": "les007",
+   "file_name": "ch01_pic018_15_11.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 170,
+   "height": 179,
+   "uri": "assets/chapters/ch01/ch01_pic018_15_11.jpg",
+   "alt_text": "ซีพียูพร้อมพัดลมระบายความร้อน",
+   "caption": "ซีพียูพร้อมพัดลมระบายความร้อน",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast012": {
+   "chapter_id": "ch01",
+   "lesson_id": "les007",
+   "file_name": "ch01_pic018_18_07.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 134,
+   "height": 125,
+   "uri": "assets/chapters/ch01/ch01_pic018_18_07.jpg",
+   "alt_text": "การ์ดเสริมแบบเสียบบนเมนบอร์ด",
+   "caption": "การ์ดเสริมแบบเสียบบนเมนบอร์ด",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast013": {
+   "chapter_id": "ch01",
+   "lesson_id": "les006",
+   "file_name": "ch01_pic018_1_12.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 142,
+   "height": 110,
+   "uri": "assets/chapters/ch01/ch01_pic018_1_12.jpg",
+   "alt_text": "ไมโครคอมพิวเตอร์พร้อมอุปกรณ์ต่อพ่วง",
+   "caption": "ไมโครคอมพิวเตอร์พร้อมอุปกรณ์ต่อพ่วง",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast014": {
+   "chapter_id": "ch01",
+   "lesson_id": "les006",
+   "file_name": "ch01_pic018_2_20.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 114,
+   "height": 95,
+   "uri": "assets/chapters/ch01/ch01_pic018_2_20.jpg",
+   "alt_text": "เครื่องคอมพิวเตอร์ขนาดใหญ่ในองค์กร",
+   "caption": "เครื่องคอมพิวเตอร์ขนาดใหญ่ในองค์กร",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast015": {
+   "chapter_id": "ch01",
+   "lesson_id": "les006",
+   "file_name": "ch01_pic018_3_08.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 123,
+   "height": 143,
+   "uri": "assets/chapters/ch01/ch01_pic018_3_08.jpg",
+   "alt_text": "เครื่องคอมพิวเตอร์สมรรถนะสูง",
+   "caption": "เครื่องคอมพิวเตอร์สมรรถนะสูง",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast016": {
+   "chapter_id": "ch01",
+   "lesson_id": "les007",
+   "file_name": "ch01_pic018_4_14.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 129,
+   "height": 133,
+   "uri": "assets/chapters/ch01/ch01_pic018_4_14.jpg",
+   "alt_text": "ชิ้นส่วนคอมพิวเตอร์",
+   "caption": "ชิ้นส่วนคอมพิวเตอร์",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast017": {
+   "chapter_id": "ch01",
+   "lesson_id": "les007",
+   "file_name": "ch01_pic018_5_10.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 258,
+   "height": 224,
+   "uri": "assets/chapters/ch01/ch01_pic018_5_10.jpg",
+   "alt_text": "เมนบอร์ด",
+   "caption": "เมนบอร์ด",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast018": {
+   "chapter_id": "ch01",
+   "lesson_id": "les007",
+   "file_name": "ch01_pic018_6_18.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 179,
+   "height": 179,
+   "uri": "assets/chapters/ch01/ch01_pic018_6_18.jpg",
+   "alt_text": "ซีพียู",
+   "caption": "ซีพียู",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast019": {
+   "chapter_id": "ch01",
+   "lesson_id": "les007",
+   "file_name": "ch01_pic018_7_09.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 255,
+   "height": 138,
+   "uri": "assets/chapters/ch01/ch01_pic018_7_09.jpg",
+   "alt_text": "การ์ดแสดงผล",
+   "caption": "การ์ดแสดงผล",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast020": {
+   "chapter_id": "ch01",
+   "lesson_id": "les007",
+   "file_name": "ch01_pic018_9_16.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 278,
+   "height": 72,
+   "uri": "assets/chapters/ch01/ch01_pic018_9_16.jpg",
+   "alt_text": "แรม (RAM)",
+   "caption": "แรม (RAM)",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast021": {
+   "chapter_id": "ch02",
+   "lesson_id": "les002",
+   "file_name": "ch02_asset_031_05.png",
+   "asset_type": "image",
+   "format": "png",
+   "width": 400,
+   "height": 400,
+   "uri": "assets/chapters/ch02/ch02_asset_031_05.png",
+   "alt_text": "จอภาพ",
+   "caption": "จอภาพ",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast022": {
+   "chapter_id": "ch02",
+   "lesson_id": "les008",
+   "file_name": "ch02_asset_033_07.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 447,
+   "height": 447,
+   "uri": "assets/chapters/ch02/ch02_asset_033_07.jpg",
+   "alt_text": "แผงวงจรหลัก",
+   "caption": "แผงวงจรหลัก",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast023": {
+   "chapter_id": "ch02",
+   "lesson_id": "les008",
+   "file_name": "ch02_cpu_09.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 617,
+   "height": 324,
+   "uri": "assets/chapters/ch02/ch02_cpu_09.jpg",
+   "alt_text": "ซีพียู (CPU)",
+   "caption": "ซีพียู (CPU)",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast024": {
+   "chapter_id": "ch02",
+   "lesson_id": "les008",
+   "file_name": "ch02_gpu_11.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 738,
+   "height": 414,
+   "uri": "assets/chapters/ch02/ch02_gpu_11.jpg",
+   "alt_text": "การ์ดแสดงผล (GPU)",
+   "caption": "การ์ดแสดงผล (GPU)",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast025": {
+   "chapter_id": "ch02",
+   "lesson_id": "les008",
+   "file_name": "ch02_hdd_ssd_10.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 166,
+   "height": 175,
+   "uri": "assets/chapters/ch02/ch02_hdd_ssd_10.jpg",
+   "alt_text": "ฮาร์ดดิสก์ที่เปิดฝาให้เห็นภายใน",
+   "caption": "ฮาร์ดดิสก์ที่เปิดฝาให้เห็นภายใน",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast026": {
+   "chapter_id": "ch02",
+   "lesson_id": "les002",
+   "file_name": "ch02_headset_03.png",
+   "asset_type": "image",
+   "format": "png",
+   "width": 400,
+   "height": 400,
+   "uri": "assets/chapters/ch02/ch02_headset_03.png",
+   "alt_text": "หูฟังพร้อมไมโครโฟน",
+   "caption": "หูฟังพร้อมไมโครโฟน",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast027": {
+   "chapter_id": "ch02",
+   "lesson_id": "les002",
+   "file_name": "ch02_keybord_01.png",
+   "asset_type": "image",
+   "format": "png",
+   "width": 400,
+   "height": 400,
+   "uri": "assets/chapters/ch02/ch02_keybord_01.png",
+   "alt_text": "แป้นพิมพ์",
+   "caption": "แป้นพิมพ์",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast028": {
+   "chapter_id": "ch02",
+   "lesson_id": "les002",
+   "file_name": "ch02_mouse_02.png",
+   "asset_type": "image",
+   "format": "png",
+   "width": 400,
+   "height": 400,
+   "uri": "assets/chapters/ch02/ch02_mouse_02.png",
+   "alt_text": "เมาส์",
+   "caption": "เมาส์",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast029": {
+   "chapter_id": "ch02",
+   "lesson_id": "les008",
+   "file_name": "ch02_psu_08.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 286,
+   "height": 176,
+   "uri": "assets/chapters/ch02/ch02_psu_08.jpg",
+   "alt_text": "แหล่งจ่ายไฟ (PSU)",
+   "caption": "แหล่งจ่ายไฟ (PSU)",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast030": {
+   "chapter_id": "ch02",
+   "lesson_id": "les008",
+   "file_name": "ch02_ram_06.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 738,
+   "height": 348,
+   "uri": "assets/chapters/ch02/ch02_ram_06.jpg",
+   "alt_text": "แรม (RAM) แบบแผง",
+   "caption": "แรม (RAM) แบบแผง",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast031": {
+   "chapter_id": "ch02",
+   "lesson_id": "les002",
+   "file_name": "ch02_speaker_04.png",
+   "asset_type": "image",
+   "format": "png",
+   "width": 400,
+   "height": 400,
+   "uri": "assets/chapters/ch02/ch02_speaker_04.png",
+   "alt_text": "ลำโพงคอมพิวเตอร์",
+   "caption": "ลำโพงคอมพิวเตอร์",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast032": {
+   "chapter_id": "ch03",
+   "lesson_id": "les003",
+   "file_name": "ch03_300x224_02.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 300,
+   "height": 224,
+   "uri": "assets/chapters/ch03/ch03_300x224_02.jpg",
+   "alt_text": "ตัวอย่างระบบปฏิบัติการ",
+   "caption": "ตัวอย่างระบบปฏิบัติการ",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast033": {
+   "chapter_id": "ch03",
+   "lesson_id": "les003",
+   "file_name": "ch03_software_300x224_01.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 300,
+   "height": 224,
+   "uri": "assets/chapters/ch03/ch03_software_300x224_01.jpg",
+   "alt_text": "ตัวอย่างซอฟต์แวร์ประยุกต์",
+   "caption": "ตัวอย่างซอฟต์แวร์ประยุกต์",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast034": {
+   "chapter_id": "ch05",
+   "lesson_id": "les005",
+   "file_name": "ch05_image1_2_1024x745_01.png",
+   "asset_type": "image",
+   "format": "png",
+   "width": 1024,
+   "height": 745,
+   "uri": "assets/chapters/ch05/ch05_image1_2_1024x745_01.png",
+   "alt_text": "แนวคิดเครือข่ายและอินเทอร์เน็ต",
+   "caption": "แนวคิดเครือข่ายและอินเทอร์เน็ต",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast035": {
+   "chapter_id": "ch05",
+   "lesson_id": "les009",
+   "file_name": "ch05_images_03.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 679,
+   "height": 450,
+   "uri": "assets/chapters/ch05/ch05_images_03.jpg",
+   "alt_text": "เราเตอร์ไร้สาย",
+   "caption": "เราเตอร์ไร้สาย",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast036": {
+   "chapter_id": "ch05",
+   "lesson_id": "les009",
+   "file_name": "ch05_images_1_02.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 738,
+   "height": 369,
+   "uri": "assets/chapters/ch05/ch05_images_1_02.jpg",
+   "alt_text": "สวิตช์เครือข่าย",
+   "caption": "สวิตช์เครือข่าย",
+   "license": "ต้องตรวจสอบ"
+  },
+  "ast037": {
+   "chapter_id": "ch05",
+   "lesson_id": "les005",
+   "file_name": "ch05_network_e1721104389962_04.jpg",
+   "asset_type": "image",
+   "format": "jpg",
+   "width": 897,
+   "height": 766,
+   "uri": "assets/chapters/ch05/ch05_network_e1721104389962_04.jpg",
+   "alt_text": "ขนาดของเครือข่าย PAN LAN MAN WAN",
+   "caption": "ขนาดของเครือข่าย PAN LAN MAN WAN",
+   "license": "ต้องตรวจสอบ"
+  }
+ }
+}
